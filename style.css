@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+#block{
+    width: 500px;
+    text-align: center;
+}
+h1, h4, .gagnant {
+    color: rgb(0, 184, 169);
+}
+
+footer p{
+    color: white;
+}
+
+button{
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.players div{
+    margin-right: 10px;
+    margin-left: 10px;
+}
